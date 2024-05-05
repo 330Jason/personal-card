@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    font-family: Copperplate;
+}
+
+.catpicture {
+    width: 30%;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    width: 40%;
+    margin: 0 auto;
+
+    color: #003049;
+    background-color: #003049;
+    border-bottom: 6px solid #fca311;
+
+    border-radius: 10px;
+
+    animation-name: changeColor;
+    animation-duration: 6s;
+}
+
+.information {
+    text-align: left;
+    text-shadow: 1px 3px 3px #fca311;
+}
+
+@keyframes changeColor {
+    0% {color: #003049;}
+    100% {color: #edf6f9;}
+}
+
+a:hover {
+    color: white;
+}
+a:link {
+    color: white;
+}
+a:active {
+    background-color: #fca311;
+}
+a{
+    color: #edf6f9;
+}
+
